@@ -1,0 +1,9 @@
+ <button onclick="{!c.openEmail}" disabled="{!!v.showEmailButton}"
+                class="slds-float_right customButtonEmail ">
+                <lightning:icon iconName="utility:email" size="small" class="{!v.showEmailButton ? '' :'fillGrey'}" />
+            </button>
+            
+            
+            .THIS .fillGrey .slds-icon-text-default {
+    fill: #A0A0A0;
+}
